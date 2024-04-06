@@ -1,0 +1,9 @@
+/* ! Essayer display:grid pour mettre le texte à gauche (et non au centre) ! */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+}
