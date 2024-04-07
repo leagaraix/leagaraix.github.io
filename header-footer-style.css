@@ -1,9 +1,10 @@
-/** Disposition du menu **/
+/** Disposition et mise en forme du menu **/
 
 header {
     display: grid;   
-    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: 50px;
 }
 
 #logo-link {
@@ -13,19 +14,91 @@ header {
 
 #logo-link img {
     height: 50px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 header ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 header li {
     list-style-type: none;
+    height: 100%;
 }
 
 header li a {
     display: block;
+    padding:25px;
+    border-bottom: 2px solid black;
     text-decoration: none;
+    color: white;
 }
+
+header li a:hover {
+    background-color: #fed24a;
+    color: #363543;
+}
+
+
+
+
+/** Disposition et mise en forme du footer **/
+
+footer {
+    margin-top: 50px;
+    background-color: #282834;
+    padding: 25px;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+footer section div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fed24a;
+}
+
+/* Suppression de toutes les marges automatiques */
+footer section div * {
+    margin: 0px;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fed24a;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#credits {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: small;
+    color: #fed24a;
+}
+
+
+
+
+
+
+
+
+
+
+
