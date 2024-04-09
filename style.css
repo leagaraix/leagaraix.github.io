@@ -1,3 +1,5 @@
+/** Mise en forme globale **/
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
@@ -8,6 +10,45 @@ main {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+p {
+    margin-top: 5px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: large;
+}
+
+h5 {
+    margin-top: 3px;
+    font-size: medium;
+    text-align: center;
+}
+
+.reseaux img {
+    max-height: 40px;
+    transition: transorm .1s;
+}
+
+/* ? Garder les adaptations de navigateurs ? */
+.reseaux img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
 
 
 
@@ -28,23 +69,29 @@ main {
     flex-direction: column;
 }
 
-
-
-
-
-/** Mise en forme des titres et éléments des pages **/
-
-p {
-    margin-top: 5px;
+#leagaraix {
+    align-items: center;
 }
 
-h3 {
-    font-size: larger;
-    margin-top: 0px;
-    margin-bottom: 10px;
+#leagaraix img {
+    max-width: 100px;
+    margin-bottom: 15px;
 }
 
-h4 {
-    font-size: large;
+
+
+/** Projets informatiques **/
+
+#projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 25px;
+}
+
+.projet {
+    background-color: #fed24a;
+    width: 30%;
+    padding: 15px;
 }
 

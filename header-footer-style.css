@@ -35,9 +35,9 @@ header li {
 header li a {
     display: block;
     padding:25px;
-    border-bottom: 2px solid black;
     text-decoration: none;
     color: white;
+    border-bottom: 2px solid black;
 }
 
 header li a:hover {
