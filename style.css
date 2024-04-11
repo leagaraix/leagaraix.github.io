@@ -3,7 +3,7 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    background-color: #363543;
+    background-color: #e9e0d2;
 }
 
 main {
@@ -86,12 +86,13 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    column-gap: 20px;
     row-gap: 25px;
 }
 
 .projet {
     background-color: #fed24a;
-    width: 30%;
+    width: 350px;
     padding: 15px;
 }
 
