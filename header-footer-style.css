@@ -1,3 +1,10 @@
+/* 
+#f79f00 = orange 
+#e9e0d2 = beige
+
+*/
+
+
 /** Disposition et mise en forme du menu **/
 
 header {
@@ -30,22 +37,24 @@ header ul {
 header li {
     list-style-type: none;
     height: 100%;
-    background: linear-gradient(#00b4cf, #b832df);
+    background-color: #363543;
     border-bottom: 2px solid black;
 }
 
 header li a {
     display: block;
-    padding:25px;
+    padding: 25px;
     text-decoration: none;
     color: white;
     
 }
 
+header li:hover {
+    background-color: #fed24a;
+}
+
 header li a:hover {
-    background-color: #363543;
-    /*background-color: #fed24a;*/
-    /*color: #363543;*/
+    color: #282834;
 }
 
 
@@ -80,7 +89,7 @@ footer section div * {
 
 footer a {
     text-decoration: none;
-    color: #fed24a;
+    color: #fed24a; 
 }
 
 footer a:hover {

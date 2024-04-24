@@ -3,7 +3,7 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    background-color: #e9e0d2;
+    background-color: #363543;
 }
 
 main {
@@ -95,4 +95,36 @@ h5 {
     width: 350px;
     padding: 15px;
 }
+
+
+
+
+/** Formations **/
+
+.chronologie {
+    display: flex;
+}
+
+.chronologie hr {
+    margin: 0%;
+    margin-right: 25px;
+    color: #fed24a;
+}
+
+.chronologie h3 {
+    color: #fed24a;
+    margin-top: 10px;
+}
+
+.chronologie {
+    color: white;
+}
+
+.lieu-date {
+    color: #fed24a;
+}
+
+
+
+
 
