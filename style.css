@@ -23,7 +23,10 @@ h1 {
 }
 
 h2 {
+    margin-top: 40px;
     color: #fed24a;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fed24a;
 }
 
 h3 {
@@ -101,7 +104,14 @@ h5 {
     padding: 15px;
 }
 
+.projet a {
+    text-decoration: none;
+    color: black;
+}
 
+.projet a:hover {
+    text-decoration: underline dotted;
+}
 
 
 /** Formations **/
