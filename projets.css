@@ -48,10 +48,26 @@
     list-style-type: square;
 }
 
+.projets section div {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 16px;
+}
 
+.projets figcaption {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
 
-
-
+.projets section embed {
+    width: 45%;
+    height: 500px;
+}
 
 
 /** Gestion des diaporamas **/
