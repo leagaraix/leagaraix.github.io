@@ -13,6 +13,8 @@ main {
 
 p {
     margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 23px;
 }
 
 h1 {
@@ -45,8 +47,18 @@ h5 {
     text-align: center;
 }
 
+main a {
+    text-decoration: none;
+    text-decoration: underline dotted;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
 .reseaux img {
     max-height: 40px;
+    margin-top: 5px;
     transition: transform .1s;
 }
 
@@ -66,7 +78,6 @@ h5 {
 
 #presentation {
     display: grid;
-    flex-wrap: wrap;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 3fr 2fr;
     column-gap: 20px;
@@ -79,6 +90,10 @@ h5 {
     flex-direction: column;
 }
 
+#presentation p, #presentation a {
+    color: black;
+}
+
 #leagaraix {
     align-items: center;
 }
@@ -87,6 +102,8 @@ h5 {
     max-width: 100px;
     margin-bottom: 15px;
 }
+
+
 
 
 
