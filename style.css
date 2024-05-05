@@ -56,6 +56,13 @@ main a:hover {
     text-decoration: underline;
 }
 
+.arianne {
+    font-size: small;
+    color: #fed24a;
+    text-decoration: underline dotted;
+    margin-bottom: 30px;
+}
+
 .reseaux img {
     max-height: 40px;
     margin-top: 5px;
