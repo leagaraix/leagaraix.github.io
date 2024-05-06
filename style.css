@@ -144,6 +144,8 @@ main a:hover {
 
 .chronologie {
     display: flex;
+    color: white;
+
 }
 
 .chronologie hr {
@@ -157,8 +159,8 @@ main a:hover {
     margin-top: 10px;
 }
 
-.chronologie {
-    color: white;
+.chronologie section {
+    margin-bottom: 40px;
 }
 
 .lieu-date {
