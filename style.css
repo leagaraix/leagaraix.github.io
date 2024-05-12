@@ -83,11 +83,11 @@ main a:hover {
 
 /** Page d'accueil **/
 
+/* Rectangle de présentation */
+
 #presentation {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 3fr 2fr;
-    column-gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: #fed24a;
     padding: 20px;
 }
@@ -97,12 +97,21 @@ main a:hover {
     flex-direction: column;
 }
 
-#presentation p, #presentation a {
+#presentation p, #presentation a,#presentation h3 {
     color: black;
+    text-align: center;
 }
 
 #leagaraix {
+    background-color: #282834;
+    color: #fed24a;
+    padding: 10px;
     align-items: center;
+    width: 40%;
+}
+
+#leagaraix p, #leagaraix a, #leagaraix h3 {
+    color: #fed24a;
 }
 
 #leagaraix img {
@@ -110,6 +119,30 @@ main a:hover {
     margin-bottom: 15px;
 }
 
+#informatique-et-moi {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Occupations personnelles */
+
+#infos-perso {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+/*! à retirer parce que j'ai enlevé l'image - par contre, peut-être qu'il faudrait ajouter des images pour illustrer la page !*/
+#infos-perso img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+/*    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr ;
+    column-gap: 20px;*/
 
 
 
