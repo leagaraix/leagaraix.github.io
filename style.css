@@ -1,9 +1,19 @@
+/*! Couleurs !*/
+/*
+#fed24a = jaune
+#ff7272 = rouge (clair)
+#fa6868 = rouge (plus foncé)
+#e9e0d2 = beige
+#363543 = gris clair du mode sombre
+#282834 = gris foncé du footer
+*/
+
 /** Mise en forme globale **/
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    background-color: #363543;
+    background-color: #e9e0d2;
 }
 
 main {
@@ -18,15 +28,14 @@ p {
 }
 
 h1 {
-    margin-top: 0%;
     margin-bottom: 40px;
     text-align: center;
-    color: #fed24a;
+    color: #ff7272;
 }
 
 h2 {
     margin-top: 40px;
-    color: #fed24a;
+    color: #ff7272;
     padding-bottom: 5px;
     border-bottom: 2px solid #fed24a;
 }
@@ -58,7 +67,7 @@ main a:hover {
 
 .arianne {
     font-size: small;
-    color: #fed24a;
+    color: #fa6868;
     text-decoration: underline dotted;
     margin-bottom: 30px;
 }
@@ -86,9 +95,9 @@ main a:hover {
 /* Rectangle de présentation */
 
 #presentation {
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
-    background-color: #fed24a;
+    background-color: #ff7272;
     padding: 20px;
 }
 
@@ -103,15 +112,15 @@ main a:hover {
 }
 
 #leagaraix {
-    background-color: #282834;
-    color: #fed24a;
+/*    background-color: #282834;*/
+    background-color: #323232;
     padding: 10px;
     align-items: center;
     width: 40%;
 }
 
 #leagaraix p, #leagaraix a, #leagaraix h3 {
-    color: #fed24a;
+    color: #e9e0d2;
 }
 
 #leagaraix img {
@@ -133,16 +142,16 @@ main a:hover {
     column-gap: 100px;
 }
 
-/*! à retirer parce que j'ai enlevé l'image - par contre, peut-être qu'il faudrait ajouter des images pour illustrer la page !*/
-#infos-perso img {
-    max-width: 100px;
-    margin-bottom: 15px;
+#infos-perso div div {
+    display: flex;
+    column-gap: 30px;
 }
 
-/*    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 4fr ;
-    column-gap: 20px;*/
+#infos-perso div img {
+    height: 100px;
+    align-self: center;
+}
+
 
 
 
