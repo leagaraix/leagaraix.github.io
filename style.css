@@ -35,15 +35,15 @@ h1 {
 
 h2 {
     margin-top: 40px;
-    color: #ff7272;
     padding-bottom: 5px;
-    border-bottom: 2px solid #fed24a;
+    border-bottom: 2px solid #ff7272;
 }
 
 h3 {
     font-size: larger;
     margin-top: 0px;
     margin-bottom: 10px;
+    color: #282834;
 }
 
 h4 {
@@ -97,13 +97,13 @@ main a:hover {
 #presentation {
     display: flex; 
     justify-content: space-evenly;
-    background-color: #ff7272;
-    padding: 20px;
+    border: solid #ff7272 2px;
 }
 
 #presentation div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #presentation p, #presentation a,#presentation h3 {
@@ -112,15 +112,14 @@ main a:hover {
 }
 
 #leagaraix {
-/*    background-color: #282834;*/
-    background-color: #323232;
-    padding: 10px;
     align-items: center;
+    background-color: #ff7272;
+    padding: 10px;
     width: 40%;
 }
 
 #leagaraix p, #leagaraix a, #leagaraix h3 {
-    color: #e9e0d2;
+    color: #282834;
 }
 
 #leagaraix img {
@@ -129,8 +128,7 @@ main a:hover {
 }
 
 #informatique-et-moi {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 30px 40px;
 }
 
 /* Occupations personnelles */
@@ -182,22 +180,23 @@ main a:hover {
 }
 
 
+
 /** Formations **/
+/** Projets professionnels **/ 
 
 .chronologie {
     display: flex;
-    color: white;
-
+    color: #282834;
 }
 
 .chronologie hr {
     margin: 0%;
     margin-right: 25px;
-    color: #fed24a;
+    border: solid #ff7272 1px;
 }
 
 .chronologie h3 {
-    color: #fed24a;
+    color: #ff7272;
     margin-top: 10px;
 }
 
@@ -206,7 +205,7 @@ main a:hover {
 }
 
 .lieu-date {
-    color: #fed24a;
+    color: #fa6868;
 }
 
 

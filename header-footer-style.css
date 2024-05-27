@@ -34,18 +34,21 @@ header li {
     list-style-type: none;
     background-color: #e9e0d2;
     border-bottom: 2px solid #323232;
-    /*justify-content: center;
-    align-items: center; --> n'ont pas réglé le problème*/
 }
 
 header li a {
-    display: block;
+    display: flex;
+    align-items: center;
     height: 100%;
     padding-left: 25px;
     padding-right: 25px;
     text-decoration: none;
     font-size: large;
     color: #282834;
+}
+
+header li a p {
+    justify-self: center;
 }
 
 header li a:hover {
