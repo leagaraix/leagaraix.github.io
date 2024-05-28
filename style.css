@@ -37,6 +37,7 @@ h2 {
     margin-top: 40px;
     padding-bottom: 5px;
     border-bottom: 2px solid #ff7272;
+    color: #ff7272;
 }
 
 h3 {
@@ -54,6 +55,9 @@ h5 {
     margin-top: 3px;
     font-size: medium;
     text-align: center;
+    color: #ff7272;
+    border-bottom: solid 1px #ff7272;
+    padding-bottom: 15px;
 }
 
 main a {
@@ -153,7 +157,6 @@ main a:hover {
 
 
 
-
 /** Projets informatiques **/
 
 #liste-projets {
@@ -165,19 +168,24 @@ main a:hover {
 }
 
 .projet {
-    background-color: #fed24a;
+    border: solid 1px #ff7272;
     width: 350px;
     padding: 15px;
 }
 
 .projet a {
     text-decoration: none;
-    color: black;
+    color: #ff7272;
 }
 
 .projet a:hover {
     text-decoration: underline dotted;
 }
+
+.projet p {
+    color: #282834;
+}
+
 
 
 
@@ -196,17 +204,32 @@ main a:hover {
 }
 
 .chronologie h3 {
-    color: #ff7272;
+    color: #e9e0d2;
+    background-color: #ff7272;
     margin-top: 10px;
+    padding: 10px;
 }
 
 .chronologie section {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 40px;
 }
 
 .lieu-date {
     color: #fa6868;
 }
+
+.piece-jointe {
+    padding: 5px 10px;
+    background-color: #ff7272;
+    color: #e9e0d2;
+    border-radius: 15px;
+    border: none;
+    margin-top: 5px;
+}
+
+
 
 
 
