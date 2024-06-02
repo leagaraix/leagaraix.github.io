@@ -55,7 +55,7 @@ h5 {
     margin-top: 3px;
     font-size: medium;
     text-align: center;
-    color: #ff7272;
+    color: #282834;
     border-bottom: solid 1px #ff7272;
     padding-bottom: 15px;
 }
@@ -63,6 +63,7 @@ h5 {
 main a {
     text-decoration: none;
     text-decoration: underline dotted;
+    color: #282834;
 }
 
 main a:hover {
@@ -71,7 +72,7 @@ main a:hover {
 
 .arianne {
     font-size: small;
-    color: #fa6868;
+    color: #282834;
     text-decoration: underline dotted;
     margin-bottom: 30px;
 }
@@ -180,12 +181,12 @@ main a:hover {
 }
 
 .projet a {
-    text-decoration: none;
-    color: #ff7272;
+    text-decoration: underline dotted;
+    color: #282834;
 }
 
 .projet a:hover {
-    text-decoration: underline dotted;
+    text-decoration: underline;
 }
 
 .projet p {
@@ -196,11 +197,13 @@ main a:hover {
 
 
 /** Formations **/
-/** Projets professionnels **/ 
+/** Projets professionnels **/
+/* Fonctionnement sous forme de chronologie, similaire dans les deux pages*/
 
 .chronologie {
     display: flex;
     color: #282834;
+    margin: 0% 20%;
 }
 
 .chronologie hr {
@@ -210,7 +213,7 @@ main a:hover {
 }
 
 .chronologie h3 {
-    color: #e9e0d2;
+    color: #282834;
     background-color: #ff7272;
     margin-top: 10px;
     padding: 10px;
@@ -223,16 +226,22 @@ main a:hover {
 }
 
 .lieu-date {
-    color: #fa6868;
+    color: #282834;
+    font-style: italic;
 }
 
 .piece-jointe {
-    padding: 5px 10px;
-    background-color: #ff7272;
-    color: #e9e0d2;
+    padding: 7px 15px;
+    background-color: #e9e0d2;
     border-radius: 15px;
-    border: none;
+    border: solid #ff7272 1px;
     margin-top: 5px;
+    width: fit-content;
+}
+
+.piece-jointe a {
+    text-decoration: underline dotted;
+    color: #282834;
 }
 
 

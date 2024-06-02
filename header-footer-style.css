@@ -27,8 +27,6 @@ header ul {
     width: 100%;
 }
 
-
-/* ! Problèmes de centrage des liens du menu AAAAAARG ! */
 header li {
     display: flex;
     list-style-type: none;
@@ -86,12 +84,12 @@ footer section div * {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: underline dotted;
     color: #ff7272; 
 }
 
 footer a:hover {
-    text-decoration: underline dotted;
+    text-decoration: underline;
 }
 
 #credits {
